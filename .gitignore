@@ -1,0 +1,37 @@
+
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# AI models
+models/
+*.onnx
+*.pth
+*.pt
+*.safetensors
+
+# Personal audio
+voice_samples/
+recordings/
+*.wav
+*.mp3
+*.webm
+
+# Editor and OS
+.vscode/
+.DS_Store
+Thumbs.db
